@@ -1,0 +1,24 @@
+<div class="container">
+
+    <div class="card">
+
+<h2>Billing</h2>
+
+<select id="productSelect"></select>
+<input type="number" id="qty" placeholder="Quantity">
+
+<button type="button" onclick="addToBill()">Add to Bill</button>
+</div>
+
+<div class="card">
+
+<h3>Bill Items</h3>
+<ul id="billList"></ul>
+</div>
+<div class="card">
+<h3>Total: ₹<span id="total">0</span></h3>
+</div>
+<button onclick="printBill()">Print Bill</button>
+</div>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>

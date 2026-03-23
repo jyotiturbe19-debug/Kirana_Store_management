@@ -1,0 +1,136 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f1f3f6;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.login-box button {
+    padding: 10px;
+    width: 100%;
+    background: green;
+    color: white;
+}.register-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}.register-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Card UI */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Input */
+input, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* List */
+li {
+    list-style: none;
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Image */
+img {
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+@keyframes blink {
+    0% { color: red; }
+    50% { color: transparent; }
+    100% { color: red; }
+}
+
+.low-alert {
+    animation: blink 1s infinite;
+    font-weight: bold;
+}

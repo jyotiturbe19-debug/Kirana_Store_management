@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styledash.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3> Phadtare Kirana Store</h3>
+        <p id="userInfo"></p>
+
+        <ul>
+    <li><a href="dashboard.html">🏠 Dashboard</a></li>
+    <li><a href="items.html">📦 Items</a></li>
+    <li><a href="billing.html">🧾 Billing</a></li>
+    <li><a href="reports.html">📊 Reports</a></li>
+</ul>
+<div class="card">
+    <h3 onclick="toggleLowStock()" style="cursor:pointer;">
+        ⚠ Low Stock Alert (Click)
+    </h3>
+    
+    <div id="lowStockList" style="display:none;"></div>
+</div>
+
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h1 id="welcomeText">Welcome 👋</h1>
+    </div>
+    
+    <div class="subtitle">Manage your store easily</div>
+    
+
+<script src="script.js"></script>
+<script src="scriptdash.js"></script>
+</body>
+</html>

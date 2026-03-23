@@ -1,0 +1,32 @@
+<div class="container">
+
+    <div class="card">
+
+<h2>Manage Products</h2>
+
+<input type="text" id="name" placeholder="Product Name">
+<input type="number" id="price" placeholder="Price">
+<input type="number" id="qty" placeholder="Quantity">
+<input type="number" id="cost" placeholder="Cost Price">
+<select id="unit">
+    <option value="kg">kg</option>
+    <option value="litre">litre</option>
+    <option value="piece">piece</option>
+    <option value="packet">packet</option>
+</select>
+
+
+<input type="file" id="imageFile" accept="image/*">
+
+<button type="button" onclick="addProduct()">Add</button>
+</div>
+
+    <div class="card">
+        <h2>Product List</h2>
+<ul id="list"></ul>
+
+ </div>
+ 
+</div>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
